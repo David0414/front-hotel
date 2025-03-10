@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Container, Button, } from "react-bootstrap";
 import { FaArrowLeft } from "react-icons/fa";
 
-import '../../assets/CrearHabitacion.css'; // Import the new CSS file
+import '../../assets/crearHabitacion.css'; // Import the new CSS file
 
 const CrearHabitacion = () => {
   const navigate = useNavigate();
