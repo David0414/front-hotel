@@ -9,7 +9,7 @@ import HabitacionDetalle from "./pages/HabitacionDetalle";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AdminLogin from "./pages/admin/AdminLogin";
 
-import CrearHabitacion from "./pages/admin/crearHabitacion";
+import CrearHabitacion from "./pages/admin/CrearHabitacion";
 import ActualizarHabitacion from "./pages/admin/ActualizarHabitacion";
 
 import NotFound from "./pages/NotFound"; 
