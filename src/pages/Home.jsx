@@ -57,6 +57,15 @@ const Home = () => {
                             <Nav.Link href="#restaurante" className="text-danger">Restaurante</Nav.Link>
                             <Nav.Link href="#contacto" className="text-danger">Contacto</Nav.Link>
                             <Nav.Link href="#ubicacion" className="text-danger">Ubicación</Nav.Link>
+
+                            <Button
+                                variant="danger"
+                                size="sm"
+                                className="ms-2 d-flex align-items-center"
+                                onClick={() => navigate("/admin/login")}
+                            >
+                                Admin
+                            </Button>
                         </Nav>
                         <div className="social-icons d-flex align-items-center ms-3">
                             <a href="tel:+1234567890"><FaPhone size={18} /></a>
@@ -105,7 +114,7 @@ const Home = () => {
                 </Carousel>
             </header>
 
-          
+
 
             {/* Sección de Habitaciones */}
             <Container className="my-5" id="habitaciones">
@@ -221,16 +230,16 @@ const Home = () => {
             </div>
 
             {/* Sección CTA */}
-            <section className="py-5 text-center" style={{ 
-                backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/hotel-cta.jpg")', 
-                backgroundSize: 'cover', 
+            <section className="py-5 text-center" style={{
+                backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/hotel-cta.jpg")',
+                backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 color: 'white'
             }}>
                 <Container className="py-5">
                     <h2 className="mb-4">Experiencia Inolvidable Garantizada</h2>
                     <p className="lead mb-4 mx-auto" style={{ maxWidth: '700px' }}>
-                        Reserva ahora y disfruta de un 15% de descuento en tu primera estancia. 
+                        Reserva ahora y disfruta de un 15% de descuento en tu primera estancia.
                         Oferta válida para reservas realizadas este mes.
                     </p>
                     <Button className="custom-btn" size="lg" onClick={() => navigate("/reserva")}>
