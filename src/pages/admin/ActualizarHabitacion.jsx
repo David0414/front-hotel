@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Swal from "sweetalert2";
-import '../../assets/ActualizarHabitacion.css'; // Import the new CSS file
+import '../../assets/actualizarHabitacion.css'; // Import the new CSS file
 
 const ActualizarHabitacion = () => {
   const { id } = useParams();
